@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: antiquewhite;
+ 
+}
+nav {
+  background-color: rgb(74, 71, 255);
+  padding: 10px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 5px;
+
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 5px;
+  background-color: white;
+  color: rgb(26, 40, 172);
+}
+a:hover {
+  background-color: rgb(57, 31, 151);
+  color: white;
+}
+.tema{
+  font-size: larger;
+
+}
